@@ -10,7 +10,7 @@
 ## Area
 - Circle: `S = πR²`
 - Square: `S = a²`
-- Triangle: `sqrt(p * (p-a) * (p-b) * (p-c)) where p is semiperimeter`
+- Triangle: `sqrt(p * (p-a) * (p-b) * (p-c))` where p is semiperimeter
 
 ## Perimeter
 - Circle: `P = 2πR`
