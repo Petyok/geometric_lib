@@ -10,7 +10,7 @@
 ## Area
 - Circle: `S = πR²`
 - Square: `S = a²`
-- Triangle: `S = (a + h) / 2`
+- Triangle: `sqrt(p * (p-a) * (p-b) * (p-c)) where p is semiperimeter`
 
 ## Perimeter
 - Circle: `P = 2πR`
@@ -70,8 +70,8 @@ The main goal of the project is to simplify calculations for the user by providi
 - Calculates the area of a triangle
 - Example of a call:
 ```python
->> area(4, 4)
-4.0
+>> area(4, 4, 4)
+6.0
 ```
 ### `def perimeter(a):`
 - Calculates the perimeter of a triangle 
