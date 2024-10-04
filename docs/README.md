@@ -82,27 +82,35 @@ The main goal of the project is to simplify calculations for the user by providi
 ```
 
 # History of changes
+11. **55ec6cf** - Petruha: Fixed triangle.py
+    fixes formula for area in `triangle.py`
 
-1. **875381f** - Petruha: Added a documentation for calculate
+10. **839a346** - Petruha: Fixed README.md again
+    minor spelling fix
+
+9. **0afa294** - Petruha: Fixed README.md
+    Reverts "fix" for formula of calculation the area of a triangle
+
+8. **875381f** - Petruha: Added a documentation for calculate
    Added documentation for `calculate.py` file
 
-2. **94c2627** - Petruha: Added a documentation for triangle and fixed area calculation
+7. **94c2627** - Petruha: Added a documentation for triangle and fixed area calculation
    Added documentation for working with triangles and fixed calculation of area of a triangle
 
-3. **22fe560** - Petruha: Added a documentation for square
+6. **22fe560** - Petruha: Added a documentation for square
    Added documentation for working with squares
 
-4. **2708f04** - Petruha: Added a documentation for circle
+5. **2708f04** - Petruha: Added a documentation for circle
    Added documentation for working with circles
 
-5. **d76db2a** - L-04: Add calculate.py  
+4. **d76db2a** - L-04: Add calculate.py  
    Added the `calculate.py` file for performing calculations.
 
-6. **51c40eb** - L-04: Doc updated for triangle  
+3. **51c40eb** - L-04: Doc updated for triangle  
    Updated documentation for working with triangles.
 
-7. **d080c78** - L-04: Triangle added  
+2. **d080c78** - L-04: Triangle added  
    Added functionality for working with triangles.
 
-8. **8ba9aeb** - L-03: Circle and square added  
+1. **8ba9aeb** - L-03: Circle and square added  
    Added functions for working with circles and squares.
