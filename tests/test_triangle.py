@@ -1,5 +1,5 @@
 import pytest
-from ..figures.triangle import area, perimeter
+from geometric_lib.figures.triangle import area, perimeter
 from math import sqrt
 
 

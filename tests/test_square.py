@@ -1,5 +1,5 @@
 import pytest
-from ..figures.square import area, perimeter
+from geometric_lib.figures.square import area, perimeter
 
 
 class TestSquare:

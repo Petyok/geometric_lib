@@ -1,6 +1,6 @@
-from figures.circle import area as circle_area, perimeter as circle_perimeter
-from figures.triangle import area as triangle_area, perimeter as triangle_perimeter
-from figures.square import area as square_area, perimeter as square_perimeter
+from geometric_lib.figures.circle import area as circle_area, perimeter as circle_perimeter
+from geometric_lib.figures.triangle import area as triangle_area, perimeter as triangle_perimeter
+from geometric_lib.figures.square import area as square_area, perimeter as square_perimeter
 
 # List of available figures and functions
 figs = ["circle", "square", "triangle"]

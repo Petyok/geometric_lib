@@ -2,7 +2,7 @@ import pytest
 import sys
 
 sys.path.append("../")
-from ..calculate import calc
+from geometric_lib.calculate import calc
 
 
 class TestCalculate:

@@ -1,6 +1,6 @@
 import pytest
 import math
-from ..figures.circle import area, perimeter
+from geometric_lib.figures.circle import area, perimeter
 
 
 class TestCircle:
