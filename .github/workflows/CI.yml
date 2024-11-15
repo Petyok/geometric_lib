@@ -32,7 +32,7 @@ jobs:
       - name: Print requirements.txt
         run: cat requirements.txt
       - name: Install dependencies
-        run: pip install -r /requirements.txt
+        run: pip install -r /home/runner/work/geometric_lib/geometric_lib/requirements.txt
       - name: Run unit tests
         run: pytest
       - name: Code Style Check
