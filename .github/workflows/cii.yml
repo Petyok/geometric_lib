@@ -11,11 +11,6 @@ on:
       - release
       - develop
   workflow_dispatch:
-    inputs: 
-      environment:
-        description: 'Target environment'
-        required: true
-        type: string
 
 jobs:
   test:
@@ -24,6 +19,8 @@ jobs:
       FULL_NAME: "Нетупский Пётр Юрьевич"
       GROUP_NUMBER: "M3115"
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
       - name: Print Info
         run: echo "ФИО:${{ env.FULL_NAME }}, Группа:${{ env.GROUP_NUMBER }}, GitHub:${{ github.actor }}"
       - name: Set up Python
@@ -34,7 +31,9 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run unit tests
         run: pytest
+      - name: Install black
+        run: pip install black
       - name: Code Style Check
-        uses: actions/checkout@v3
+        run: flake8 .
       - name: Format Code
-        run: black . --line-length 120  
+        run: black . --line-length 120 
