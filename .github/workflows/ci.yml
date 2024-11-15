@@ -1,7 +1,6 @@
 name: CI
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - master
@@ -10,7 +9,13 @@ on:
     branches:
       - master
       - release
-      - develop    
+      - develop
+  workflow_dispatch:
+    inputs: 
+      environment:
+        description: 'Target environment'
+        required: true
+        type: string
 
 jobs:
   test:
