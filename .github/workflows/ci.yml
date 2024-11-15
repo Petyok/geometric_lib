@@ -32,5 +32,4 @@ jobs:
       - name: Code Style Check
         uses: actions/checkout@v3
       - name: Format Code
-        uses: actions/checkout@v3
         run: black . --line-length 120  
