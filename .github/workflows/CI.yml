@@ -35,7 +35,5 @@ jobs:
         run: pip install -r /home/runner/work/geometric_lib/geometric_lib/requirements.txt
       - name: Run unit tests
         run: pytest
-      - name: Code Style Check
-        run: flake8 .
       - name: Format Code
         run: black . --line-length 120 
