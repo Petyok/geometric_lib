@@ -28,11 +28,11 @@ jobs:
         with:
           python-version: '3.13'
       - name: Print all
-        run: ls -a
+        run: pwd
       - name: Print requirements.txt
         run: cat requirements.txt
       - name: Install dependencies
-        run: pip install -r geometric_lib/geometric_lib/requirements.txt
+        run: pip install -r /requirements.txt
       - name: Run unit tests
         run: pytest
       - name: Code Style Check
